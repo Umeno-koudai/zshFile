@@ -1,4 +1,5 @@
 alias .='cd ..'
+alias ..='cd ../..'
 alias c.='code .'
 
 alias c='cd'
@@ -23,3 +24,7 @@ alias r='rm'
 alias rr='rm -r'
 alias th='touch'
 alias l='ls'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gb='git branch'

@@ -25,6 +25,10 @@ alias l='ls'
 alias nrt='npm run test'
 alias nrd='npm run dev'
 alias ni='npm install'
+alias ncv='npm create vite@latest'
+
+#npxコマンド
+alias ntx='npx tsx'
 
 #gitコマンド
 alias g='git'
@@ -42,3 +46,10 @@ alias dei='docker exec -it'
 alias dsp='docker stop'
 alias dst='docker start'
 alias dc='docker compose'
+
+#Biomeコマンド
+alias nb='npm install -D -E @biomejs/biome'
+alias nbi='npx @biomejs/biome init'
+alias nbf='npx @biomejs/biome format --write'
+alias nbl='npx @biomejs/biome lint --write'
+alias nbc='npx @biomejs/biome check --write'

@@ -22,6 +22,8 @@ alias th='touch'
 alias l='ls'
 
 #npmコマンド
+alias n='npm'
+alias nr='npm run'
 alias nrt='npm run test'
 alias nrd='npm run dev'
 alias ni='npm install'
